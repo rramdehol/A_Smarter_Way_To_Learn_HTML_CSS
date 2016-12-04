@@ -1,5 +1,5 @@
 p{
-	/* times new roman is enclosed with quotations becuase 
-	the native font name has spaces */
+	/* The times new roman has quotation marks because the
+	name contains spaces */
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
