@@ -2,4 +2,15 @@ p{
 	/* The times new roman has quotation marks because the
 	name contains spaces */
 	font-family: Georgia, "Times New Roman", Times, serif;
+	/* 1em is the 1 unit of the default text size */
+	font-size: 1.2em;
+}
+h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 2em;
+  color:#ff0000;
+}
+p {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 1.5em;
 }
