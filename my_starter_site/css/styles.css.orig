@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+/* TAG SELECTORS */
+=======
+>>>>>>> ea62c3cdf7a2c4a6febe6d5c7c3ca2664d692136
+p{
+	/* The times new roman has quotation marks because the
+	name contains spaces */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/* 1em is the 1 unit of the default text size */
+	font-size: 1.2em;
+}
+h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 2em;
+  color:#ff0000;
+}
+p {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 1.5em;
+<<<<<<< HEAD
+}
+/* CLASS SELECTORS */
+/* A type of styling usable for more than one element */
+.typewriter{
+	font-family: "Courier New", "Courier", monospace;
+}
+.emphasized{
+	font-style: italic;
+}
+.standout{
+	/* color: blue; */
+	/* Alternatively use a code */
+	color: #cc0000;
+}
+/* TAG-CLASS SELECTORS */
+p.important{
+	font-size: 1.5em;
+	font-weight: 900; 
+	/* MAX RANGE OF 900 can also be*/
+	/* font-weight: lighter;
+	font-weight: normal;
+	font-weight: bold;
+	font-weight: lighter; */
+}
+h1.important{
+	font-size: 2.5em;
+}
+
+=======
+}
+>>>>>>> ea62c3cdf7a2c4a6febe6d5c7c3ca2664d692136
