@@ -1,0 +1,53 @@
+body{
+	font-family: "Times New Roman", Times, Serif;
+	font-size: 2em;
+	color: green;
+}
+
+
+
+p.offset{
+	/* Targets every margin */
+	margin:  10px;
+	/* Targets top-bottom, left-right */
+	margin: 10px 10px;
+	/* Targets Top->Right->Bottom->Left */
+	margin: 10px 10px 10px 10px;
+	/* Can also target */
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: blue;
+}
+
+/* TARGETS ALL P ELEMENTS WITH CLASS BOXED */
+p.boxed{
+	/* ADDS A BORDER 5PX SOLID RED */
+	border: 5px solid red;
+	/* ADDS WHITESPACE BETWEEN ELEMENT AND THE BORDER */
+	padding: 10px;
+	/* ADDDS PADDING TOP RIGHT BOTTOM LEFT */
+	padding: 10px 10px 10px 10px;
+}
+/* GROUPING */
+/* Target all of those elements  */
+h1, h2, h3{
+	color: orange;
+	text-align: center;
+	border: 5px solid orange;
+}
+/* Targets with an id */
+p.boxed#center{
+	/* ADDS A BORDER 5PX SOLID RED */
+	border: 5px solid green;
+	/* ADDS WHITESPACE BETWEEN ELEMENT AND THE BORDER */
+	padding: 10px;
+	/* ADDDS PADDING TOP RIGHT BOTTOM LEFT */
+	padding: 10px 10px 10px 10px;
+}
+#header{
+	color: black;
+	text-align: center;
+	border: 5px solid black;
+}
