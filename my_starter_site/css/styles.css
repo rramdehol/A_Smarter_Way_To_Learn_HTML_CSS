@@ -10,10 +10,20 @@ h2 {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 2em;
   color:#ff0000;
+  /* ALIGN THE TEXT TO THE CENTER */
+  text-align: center;
 }
 p {
   font-family: "Comic Sans MS", cursive;
   font-size: 1.5em;
+  /* LETTER AND WORD SPACING BETWEEN CHARATERS & WORDSC */
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+ /* THE SPACNG BETWEEN TEXT LINES  */
+ line-height: 1.0	em;
+ /* ALIGN TEXT TO THE LEFT SIDE */
+ /* text-align: left; /* right */ 
+ text-align: justify;
 }
 /* CLASS SELECTORS */
 /* A type of styling usable for more than one element */
@@ -28,7 +38,7 @@ p {
 	/* Alternatively use a code */
 	color: #cc0000;
 }
-/* TAG-CLASS SELECTORS */
+/* TAG-WITH A CLASS SELECTORS */
 p.important{
 	font-size: 1.5em;
 	font-weight: 900; 
