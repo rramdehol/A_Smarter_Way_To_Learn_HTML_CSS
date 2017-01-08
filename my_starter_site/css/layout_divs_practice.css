@@ -1,0 +1,43 @@
+body{
+	background-color: lightskyblue;
+}
+#main {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
+#navigation-bar {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+.inset {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+#content{
+	width: 68%;
+	float: left;
+	margin: 0 auto 0 auto;
+}
+#sidebar{
+	width: 29%;
+	float: right;
+	margin: 0 auto 0 auto;
+}
+
+#d1{
+	width: 31%;
+	float: left;
+}
+#d2{
+	width: 31%;
+	float: left;
+	margin-left: 3.5%;
+}
+#d3{
+	width: 31%;
+	float: right;
+}
+.no-wrap{
+	clear: both;
+}
