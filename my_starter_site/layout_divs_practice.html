@@ -6,7 +6,13 @@
 </head>
 <body>
 	<div id="header">
-		Header	
+		<img src="images/lightbulb.png" alt="" id="lightbulb">
+		<h1>Header</h1>	
+	</div>
+	<!-- Create an invisible header with relative position to occupy space because fixed header violates flow -->
+	<div id="invisible-header">
+		<img src="images/lightbulb.png" alt="" id="lightbulb">
+		<h1>Header</h1>	
 	</div>
 	<div id="navigation-bar">
 		Navigation Bar
@@ -24,13 +30,15 @@
 				<div id="d3">
 					<p>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
 				</div>
-				<!-- Empty div for clear fix -->
+				<!-- Empty div for clear both fix on 
+				floating items -->
 				<div class="no-wrap"></div>
 			</div>
 		</div>
 		<div id="sidebar" class="inset">
 			<p>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
 		</div>
+		<div class="no-wrap"></div>
 	</div>
 	<div id="footer">
 		Footer

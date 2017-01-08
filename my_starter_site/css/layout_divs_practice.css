@@ -1,6 +1,32 @@
 body{
 	background-color: lightskyblue;
 }
+#header{
+	width: 100%;
+	background-color: #990000;
+	color: white;
+	font-size: 3em;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+/* <!-- Create an invisible header with relative position to 
+occupy space because fixed header violates flow and make
+it invisible to the user--> */
+#invisible-header{
+	width: 100%;
+	background-color: #990000;
+	color: white;
+	font-size: 3em;
+	position: relative;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+#lightbulb{
+	float: left;
+	height: 100px;
+}
 #main {
 	width: 90%;
 	height: 100%;
@@ -38,6 +64,7 @@ body{
 	width: 31%;
 	float: right;
 }
+/* AN empty div to prevent wrapping on floats */
 .no-wrap{
 	clear: both;
 }
