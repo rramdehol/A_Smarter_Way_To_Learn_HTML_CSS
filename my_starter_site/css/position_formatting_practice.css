@@ -1,10 +1,13 @@
 body{
 	font-family: "Times New Roman", Times, Serif;
-	font-size: 2em;
+	font-size: 1em;
 	color: green;
 }
-
-
+/* Used in order to clear the wrapped text when an image 
+is floating near a set of text*/
+p{
+	clear: both;
+}
 
 p.offset{
 	/* Targets every margin */
@@ -18,7 +21,7 @@ p.offset{
 	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-left: 10px;
-	color: blue;
+	color: green;
 }
 
 /* TARGETS ALL P ELEMENTS WITH CLASS BOXED */
@@ -50,4 +53,98 @@ p.boxed#center{
 	color: black;
 	text-align: center;
 	border: 5px solid black;
+}
+/* TARGET A SET OF IMAGES THAT ARE
+INHERENTLY INLINE TO MAKE THEM 
+BLOCK LEVEL ELEMENTS */
+#images img{
+	display: float: left;
+	/* CENTER A BLOCK IMAGE BY SPLITTING
+	THE MARGIN EQUALLY ON BOTH LEFT & 
+	RIGHT SIDES */
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto 0 auto; 
+	margin: auto;
+}
+/* Chnage the color of a link */
+a {
+	color: pink;
+	/* Removes the underline on the link */
+	text-decoration: none;
+}
+/* Change the color of a link on hover */
+a:hover {
+	color: blue;
+	font-weight: bold;
+	/* Removes the underline on the link */
+	text-decoration: none;
+	font-size: 2em;
+}
+/* Change the appearance of the link when it is clicked */
+a:active {
+	font-size: 2em;
+}
+/* Change the look of the link after its clicked */
+a:visited {
+	color: deeppink;
+}
+
+/* Styling List */
+ul{
+	margin: 1em;
+	list-style-type: circle; 
+}
+
+ol{
+	margin: 1em;
+	list-style-type: square; 
+}
+li{
+	margin: 1em;
+	color: blue;
+}
+
+/* Styling Table */
+th, td{
+	border: 1px solid black;
+	padding: 0.25em;
+	width: 20%;
+	
+	color: blue;
+}
+td{
+	text-align: left;
+}
+table{
+	text-align: center;
+}
+tr{
+	background-color: yellow;
+}
+
+tr.even-row{
+	background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

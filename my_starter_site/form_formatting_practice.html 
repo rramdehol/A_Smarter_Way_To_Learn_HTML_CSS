@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form_formatting_practice</title>
+	<link rel="stylesheet" type="text/css" href="css/form_formatting_practice.css">
+</head>
+<body>
+	<!-- Every form begins witht the tags form -->
+	<form action="form_formatting_practice_submit" method="get" accept-charset="utf-8">
+		<!-- Input tag with a placeholder -->
+		Last Name:
+		<input type="text" name="surname" placeholder="Surname" size="25" maxlength="40">
+		<!-- Add a break to gives field own line -->
+		<br><br>
+		<!-- Input tag with a type pasword that shows dots for characters -->
+		Password:
+		<input type="password" name="password" placeholder="Surname" size="25" maxlength="40">
+		<br><br>
+		<!-- Add a message box -->
+		Message: 
+		<br>
+		<textarea rows="4" cols="30"></textarea>
+		<br>
+		<!-- Submit Button -->
+		SUBMIT:
+		<input type="submit" value="SUBMIT">
+	</form>
+
+</body>
+</html>

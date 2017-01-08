@@ -6,6 +6,9 @@
 </head>
 <body>
 	<!-- ALL HTML PAGES ARE MADE UP OF CHILDREN AND PARENTS. CHILDREN INHERIT THE CHARACTERISTICS OF THEIR PARENTS BUT NOT VICE VERSA. Children can override parents styling-->
+	<!-- BLOCK LEVEL ELEMENTS
+	WHEN AN ELEMENT IS A BLOCK LEVE ELEMENT THE BROWSER WILL NO PUT ANY OTHER ELEMENTS BESIDE IT UNLESS YOU SPECIFY TO DO SO -->
+	<!-- ALL BLOCK LEVEL ELEMENTS INSIDE OF A DIV OWN THEIR OWN HORIZONTAL SPACE BUT ONLY INSIDE THAT DIV -->
 	<div id="header">
 		This is the header
 		<h1>Practice for CSS</h1>
@@ -13,12 +16,109 @@
 		<h3>Digital Crafts</h3>
 	</div>
 	<div id="text body">
-		<p class="offset boxed">Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
+		<p class="offset boxed">Link to an external link and open on a new page or tab<a href="http://google.com" target="blank" title="">HOME</a> Link to another page in the directory<a href="css/position_formatting_practice.css" target="blank" title="">My CSS</a> Link to a location on the page<a href="#block-images" title="">Navigate to Block Images</a>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
 		<p class="offset boxed" id="center">Then one day you get a call from the White House. They ask you to come to DC to talk with policymakers and other people like you from around the country. You have one week to prepare!</p>
 		<p class="offset boxed">
 		The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner.
 		</p>
 	</div>
+	<!-- IMAGES ARE INHERENTLY NOT BLOCK LEVEL ELEMENTS THEY ARE INLINE AND WILL OCCUPY AS MUCH SPACE AS THEY CAN BEFOFE THEY MOVE DOWN TO A BEW LINE-->
+	<div id="images">
+	<p>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
+		<a href="http://casino.com" target="blank" title=""><img src="images/casino.gif" alt=""></a>
+		<img src="images/casino.gif" alt="">
+		<p>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
+		<p>Laurie is lost in Userland. She knows where she is, or where she's going, but maybe not at the same time. The only way out is through Jargon-infested swamps, gates guarded by perfect logic, and the perils of breakfast time at the Philosopher's Diner. With just her wits and the help of a lizard who thinks he's a dinosaur, Laurie has to find her own way home.</p>
+		<!-- Unordered list -->
+		<ul>
+			<li>Link to an external link and open on a new page or tab<a href="http://google.com" target="blank" title="">HOME</a> </li>
+			<li>Link to another page in the directory<a href="css/position_formatting_practice.css" target="blank" title="">My CSS</a></li>
+			<li><a href="#block-images" title="">Navigate to Block Images</a></li>
+		</ul>
+		<!-- Ordered list -->
+		<ol>
+			<li>Link to an external link and open on a new page or tab<a href="http://google.com" target="blank" title="">HOME</a> </li>
+			<li>Link to another page in the directory<a href="css/position_formatting_practice.css" target="blank" title="">My CSS</a></li>
+			<li><a href="#block-images" title="">Navigate to Block Images</a></li>
+		</ol>
+
+		<ul>
+			<li>Sun</li>
+			<li>Moon</li>
+			<li>Earth</li>
+			<li>Galaxy</li>
+		</ul>
+		<img src="images/casino.gif" alt="">
+	</div>
+	<!-- DIVS ON THE OTHERHAND ARE BLOCK LEVEL AS SHOW BELOW -->
+	<div id="block-images">
+		<div id="image-1">
+			<img src="images/casino.gif" alt="">
+		</div>
+		<div id="image-2">
+			<img src="images/casino.gif" alt="">
+		</div>
+		<div id="image-3">
+			<img src="images/casino.gif" alt="">
+		</div>
+	</div>
+	<!-- Creating a table structure -->
+	<div id="table" >
+		<<table>
+			<caption>table title and/or explanatory text</caption>
+			<thead>
+				<tr>
+					<th colspan="5">header</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr> 
+					<!-- Column Headers -->
+					<th scope="col"></th>
+					<th scope="col">COLUMN1</th>
+					<th scope="col">COLUMN2</th>
+					<th scope="col">COLUMN3</th>
+					<th scope="col">COLUMN4</th>
+				</tr>
+				<tr>
+					<!-- Column and row span -->
+					<th scope="row">ROW1</th>
+					<td>column1</td>
+					<td>column2</td>
+					<td>column3</td>
+					<td>column4</td>
+				</tr>
+				<tr class="even-row">
+					<!-- Row Header -->
+					<th scope="row">ROW2</th>
+					<td>column1</td>
+					<td>column2</td>
+					<td>column3</td>
+					<td>column4</td>
+				</tr>
+				<tr>
+					<th scope="row">ROW3</th>
+					<td>column1</td>
+					<td>column2</td>
+					<td>column3</td>
+					<td>column4</td>
+				</tr>
+				<tr class="even-row">
+					<th scope="row">ROW4</th>
+					<td>column1</td>
+					<td>column2</td>
+					<td>column3</td>
+					<td>column4</td>
+				</tr>
+				<tr>
+					<th scope="row" rowspan="2">ROW5</th>
+					<td colspan="2" rowspan="2">column12</td>
+					<td colspan="2" rowspan="2">column34</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
 
 
 </body>
