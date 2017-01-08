@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grouping Related Elements</title>
+	<link rel="stylesheet" type="text/css" href="css/form_grouping_related_items.css">
+</head>
+<body>
+	<form action="form_grouping_related_elements_submit" method="get" accept-charset="utf-8">
+		<!-- Fieldset tags used to group elements together -->
+		<fieldset>
+			<legend>Contact Info</legend>
+			First Name: 
+			<input type="text" name="firstname" placeholder="First name">
+			<br>
+			Last Name: 
+			<input type="text" name="lastname" placeholder="Last name">
+			<br>
+			E-mail: 
+			<input type="email" name="email" placeholder="E-mail address">
+			<br>
+		</fieldset>
+		<!-- Fieldset tags used to group elements together -->
+		<fieldset>
+			<!-- Legend tag used to label field -->
+			<legend>Questions</legend>
+			What is the meaning of life?:
+			<br>
+			<textarea rows="4" cols="30" placeholder="TEXT"></textarea>
+			<br>
+			What do you want on your pizza?:
+			<br>
+			<input type="checkbox" name="" value="pepperoni" id="pepperoni"><label for="pepperoni">Pepperoni</label>
+			<input type="checkbox" name="" value="mushrooms" id="mushrooms"><label for="mushrooms">Mushrooms</label>
+			<input type="checkbox" name="" value="sausage" id="sausage"><label for="sausage">Sausage</label>
+			<input type="checkbox" name="" value="olives" id="olives"><label for="olives">Olives</label>
+		</fieldset>
+		<fieldset>
+			<legend>Submit</legend>
+			<input type="submit" name="Submit">
+		</fieldset>
+	</form>
+
+</body>
+</html>

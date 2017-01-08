@@ -1,0 +1,24 @@
+body{
+	background-color: lightskyblue;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+input[type="text"], input[type="email"], textarea{
+	margin-bottom: 0.25em;
+	padding: 0.25em;
+	font-size: 1em;
+}
+
+input[type="submit"]{
+	font-size: 2em;
+}
+
+legend{
+	font-weight: 700;
+}

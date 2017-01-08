@@ -21,10 +21,60 @@
 		<br>
 		<textarea rows="4" cols="30"></textarea>
 		<br>
+		<!-- Radio Buttons make one and only one selection-->
+		<!-- smae name value indicates theyre related -->
+		How did you find us?:
+		<br>
+		<input type="radio" name="found-thru" value="Google" >Google
+		<!-- Defualt checked -->
+		<input type="radio" name="found-thru" value="Review" checked="checked">Review
+		<input type="radio" name="found-thru" value="Friend">Friend
+		<br><br>
+		<!-- Checkboxes are like radio buttons except user can select more than 1 -->
+		<!-- Same name value indicated they are realted -->
+		How would you describe our site?:
+		<br>
+		<input type="checkbox" name="feedback" value="wonderful" checked="checked">Wonderful
+		<input type="checkbox" name="feedback" value="fabulous" checked="checked">Fabulous
+		<input type="checkbox" name="feedback" value="Brilliant" checked="checked">Brilliant
+		<br><br>
+		<!-- Select Box -->
+		<!-- Scrollable selection box -->
+		<select>
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<!-- Default option -->
+			<option value="AZ" selected="selected">New York</option>
+		</select>
+		<br><br>
+		<!-- Labels  Allow You To Select Anywhere on Text-->
+		Labels
+		How did you find us?:
+		<br>
+		<label>
+		<input type="radio" name="found-thru" value="Google" >Google
+		</label>
+		<!-- Defualt checked -->
+		<label>
+		<input type="radio" name="found-thru" value="Review" checked="checked">Review
+		</label>
+		<label>
+		<input type="radio" name="found-thru" value="Friend">Friend
+		<br><br>
+		<label/>
+		<br><br>
+		LABELS
+		How would you describe our site?:
+		<br>
+		<input type="checkbox" name="feedback" value="wonderful" checked="checked" id="wonderful"><label for="wonderful">Wonderful</label>
+		<input type="checkbox" name="feedback" value="fabuluos" checked="checked" id="fabulous"><label for="fabulous">Fabulous</label>
+		<input type="checkbox" name="feedback" value="brilliant" checked="checked" id="brilliant"><label for="brilliant">Wonderful</label>
+		<br><br>
 		<!-- Submit Button -->
 		SUBMIT:
 		<input type="submit" value="SUBMIT">
 	</form>
-
+	<a href="form_grouping_related_elements.html%20" title="">GROUPING RELATED ELEMENTS</a>
 </body>
 </html>
