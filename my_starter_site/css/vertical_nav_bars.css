@@ -1,0 +1,39 @@
+body{
+	background-color: greenyellow;
+}
+
+#navbar{
+	/* background-color: blue; */
+
+	/* Tells the browser to shrink to fit */
+	display: inline-block;
+}
+#navbar ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#navbar ul a li{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: 900;
+	background-color: blue;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: block;
+	padding: 1em;
+	margin: 5px;
+	text-align: center;
+
+}
+a{
+	/* Remove undrline */
+	text-decoration: none;
+	color: white;
+
+}
+a:hover {
+	color: yellow;
+	font-weight: bold;
+}
+
